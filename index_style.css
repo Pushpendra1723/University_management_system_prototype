@@ -1,0 +1,33 @@
+.button {
+  background-color: rgb(70, 241, 250);
+  border: none;
+  font-weight: bold;
+  color: rgb(21, 86, 139);
+  font-size: 25px;
+  border-radius: 14px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  margin-right: 80px;
+  box-shadow: 7px 7px 10px black;
+  margin-top: 10px;
+
+  transition: box-shadow 0.15s, opacity 0.15s, bacground-color 0.15s;
+}
+.button:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.519);
+  opacity: 0.9;
+  background-color: rgb(85, 196, 251);
+}
+.button:active {
+  background-color: rgb(196, 12, 12);
+}
+
+.img {
+  display: inline-block;
+}
+body {
+  background-color: rgb(164, 240, 250);
+}

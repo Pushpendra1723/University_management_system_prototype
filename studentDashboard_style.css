@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  background-color: #1d253a;
+}
+h1 {
+  color: aqua;
+  font-size: 3cm;
+}
+
+button {
+  background: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 16px;
+  margin-top: 40px;
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  margin-left: 20px;
+  box-shadow: 5px 5px 5px #f1ff5c;
+  transition: color 1s, border-color 1s, box-shadow 1s transition 1s;
+}
+button:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 10px 10px 10px #f1ff5c;
+  transform: translate(-0.25em);
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.login-button {
+  background-color: rgb(116, 221, 249);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  height: 30px;
+  width: 85px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 15px;
+  box-shadow: 3px 3px 5px rgba(120, 119, 119, 0.292);
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+
+.login-button:hover {
+  opacity: 0.8;
+  box-shadow: 3px 3px 5px rgba(41, 40, 40, 0.292);
+}
+.img {
+  margin-left: 150px;
+  margin-top: 85px;
+  display: inline-block;
+}
+.div-class {
+  margin-left: 150px;
+  margin-top: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+body {
+  background-color: rgb(172, 175, 175);
+}
+.table1,
+.table2,
+.table3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
